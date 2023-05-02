@@ -1,0 +1,13 @@
+@use "@assets/stylesheets/base" as *;
+
+.knowledge-link {
+    fill: none;
+    stroke: $gray-color-medium;
+    stroke-width: 2px;
+}
+
+.knowledge-link:hover, .knowledge-link-selected {
+    fill: none;
+    stroke-width: 3px;
+    stroke: $gray-color-dark;
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200
+          },
+          "type": {
+            "enum": [
+              "course",
+              "teacher",
+              "topic",
+              "institute",
+              "plan"
+            ]
+          },
+          "label": {
+            "pattern": "[A-Z][A-Z]-[A-Z][A-Z][A-Z]"
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 15
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "label",
+          "name"
+        ]
+      },
+      "minItems": 200,
+      "maxItems": 200,
+      "uniqueItems": true
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200
+          },
+          "target": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200
+          },
+          "value": {
+            "enum": [
+              "lecturer",
+              "garant",
+              "tutorial",
+              "topic",
+              "institute",
+              "plan",
+              "PP",
+              "PS",
+              "PV",
+              "PO",
+              "part-time/present",
+              "cs/en"
+            ]
+          }
+        },
+        "required": [
+          "source",
+          "target",
+          "value"
+        ]
+      },
+      "minItems": 400,
+      "maxItems": 400,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "nodes",
+    "links"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "id":5,
+    "name":"Katedra softwarového inženýrství",
+    "label":"KSI",
+    "type":"institute",
+    "active":true,
+    "semester":"b212",
+    "links":[
+       {
+          "name":"whitebook",
+          "ref":"https://bilakniha.cvut.cz/cs/katedra18102.html#gsc.tab=0"
+       },
+       {
+        "name":"survey",
+        "ref":"https://anketa.is.cvut.cz/html/anketa/results/semesters/B212/surveys/1?departments=%5B%7B%22label%22%3A%22katedra%20softwarov%C3%A9ho%20in%C5%BEen%C3%BDrstv%C3%AD%20%2818102%29%22%2C%22value%22%3A%2218102%22%7D%5D"
+        }
+    ],
+    "relations":[
+      
+    ]
+ }

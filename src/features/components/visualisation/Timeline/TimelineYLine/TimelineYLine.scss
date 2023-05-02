@@ -1,0 +1,12 @@
+@use "@assets/stylesheets/base" as *;
+
+.timeline-y-line {
+    stroke: $gray-color-medium;
+    stroke-dasharray: 3px;
+    stroke-width: 0.5px;
+}
+
+.selected-y {
+    stroke: black;
+    stroke-width: 0.5px;
+}

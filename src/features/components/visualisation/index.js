@@ -1,0 +1,5 @@
+/**
+ * Visualisation namespace
+ * 
+ * @namespace Visualisation
+ */

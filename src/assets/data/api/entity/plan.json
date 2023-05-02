@@ -1,0 +1,17 @@
+{
+    "id": 8,
+    "name":"Mgr. program, pro fázi studia bez specializace, ver. pro roky 2020 a vyšší",
+    "label":"Bez specializace, 2020 a vyšší",
+    "type":"plan",
+    "active":true,
+    "semester":"b212",
+    "links":[
+       {
+          "name":"whitebook",
+          "ref":"https://bilakniha.cvut.cz/cs/stplan30020487.html#gsc.tab=0"
+       }
+    ],
+    "relations":[
+  
+    ]
+  }

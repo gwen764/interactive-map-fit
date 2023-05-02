@@ -1,0 +1,20 @@
+{
+    "tags": {
+        "allowUnknownTags": ["optional"]
+    },
+    "source": {
+        "include": ["./src"],
+        "includePattern": "\\.(jsx|js|ts|tsx)$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "opts": {
+        "encoding": "utf8",
+        "readme": "./readme.md",
+        "destination": "docs/",
+        "recurse": true,
+        "verbose": true
+    }
+}

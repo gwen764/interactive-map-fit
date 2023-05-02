@@ -1,0 +1,16 @@
+{
+    "id":11,
+    "name":"Grafové databáze",
+    "type":"topic",
+    "active":true,
+    "semester":"b212",
+    "links":[
+       {
+          "name":"projects",
+          "ref":"https://projects.fit.cvut.cz/topics/search?q=grafove%20datab%C3%A1ze"
+       }
+    ],
+    "relations":[
+      
+    ]
+ }

@@ -1,0 +1,650 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "course",
+      "label": "NI-PDB",
+      "name": "Pokročilé databázové systémy"
+    },
+    {
+      "id": 1,
+      "type": "institute",
+      "label": "KAM",
+      "name": "Katedra aplikované matematiky"
+    },
+    {
+      "id": 2,
+      "type": "course",
+      "label": "NIE-PDB",
+      "name": "Advanced Database Systems"
+    },
+    {
+      "id": 3,
+      "type": "teacher",
+      "label": "xvalenta",
+      "name": "Ing. Michal Valenta Ph.D."
+    },
+    {
+      "id": 4,
+      "type": "teacher",
+      "label": "trofiye",
+      "name": "Ing. Yelena Trofimova"
+    },
+    {
+      "id": 5,
+      "type": "institute",
+      "label": "KSI",
+      "name": "Katedra softwarového inženýrství"
+    },
+    {
+      "id": 6,
+      "type": "plan",
+      "label": "NI-SI, 2020",
+      "name": "Mgr. specializace Softwarové inženýrství, 2020"
+    },
+    {
+      "id": 7,
+      "type": "plan",
+      "label": "NI-WI, 2020",
+      "name": "Mgr. specializace Webové inženýrství, 2020"
+    },
+    {
+      "id": 8,
+      "type": "plan",
+      "label": "Bez specializace, 2020 a vyšší",
+      "name": "Mgr. program, pro fázi studia bez specializace, ver. pro roky 2020 a vyšší"
+    },
+    {
+      "id": 9,
+      "type": "topic",
+      "label": "Optimalizace a vyhodnocování SQL",
+      "name": "Optimalizace a vyhodnocování SQL"
+    },
+    {
+      "id": 10,
+      "type": "topic",
+      "label": "Dokumentově orientované databáze",
+      "name": "Dokumentově orientované databáze"
+    },
+    {
+      "id": 11,
+      "type": "topic",
+      "label": "Grafové databáze",
+      "name": "Grafové databáze"
+    },
+    {
+      "id": 12,
+      "type": "topic",
+      "label": "XML databáze",
+      "name": "XML databáze"
+    },
+    {
+      "id": 13,
+      "type": "topic",
+      "label": "Key-value databáze",
+      "name": "Key-value databáze"
+    },
+    {
+      "id": 14,
+      "type": "course",
+      "label": "BIK-SQL.1",
+      "name": "Jazyk SQL, pokročilý"
+    },
+    {
+      "id": 15,
+      "type": "course",
+      "label": "BI-SQL.1",
+      "name": "Jazyk SQL, pokročilý"
+    },
+    {
+      "id": 16,
+      "type": "course",
+      "label": "BI-DBS",
+      "name": "Databázové systémy"
+    },
+    {
+      "id": 17,
+      "type": "course",
+      "label": "BIK-DBS",
+      "name": "Databázové systémy"
+    },
+    {
+      "id": 18,
+      "type": "course",
+      "label": "BIK-KOM",
+      "name": "Konceptuální modelování"
+    },
+    {
+      "id": 319,
+      "type": "course",
+      "label": "BI-LA1.21",
+      "name": "Lineární algebra 1"
+    },
+    {
+      "id": 320,
+      "type": "course",
+      "label": "BI-LA2.21",
+      "name": "Lineární algebra 2"
+    },
+    {
+      "id": 317,
+      "type": "course",
+      "label": "BI-LIN",
+      "name": "Lineární algebra"
+    },
+    {
+      "id": 19,
+      "type": "teacher",
+      "label": "dombedan",
+      "name": "Ing. Daniel Dombek Ph.D."
+    },
+    {
+      "id": 20,
+      "type": "teacher",
+      "label": "kloudkar",
+      "name": "Ing. Karel Klouda Ph.D."
+    },
+    {
+      "id": 21,
+      "type": "topic",
+      "label": "GEM",
+      "name": "Gaussova eliminační metoda"
+    },
+    {
+      "id": 22,
+      "type": "topic",
+      "name": "Matice"
+    },
+    {
+      "id": 23,
+      "type": "plan",
+      "label": "BI-IB, 2021",
+      "name": "Informační bezpečnost, 2021"
+    },
+    {
+      "id": 24,
+      "type": "plan",
+      "label": "BI-MI, 2021",
+      "name": "Manažerská informatika, 2021"
+    },
+    {
+      "id": 25,
+      "type": "plan",
+      "label": "BI-PG, 2021",
+      "name": "Počítačová grafika, 2021"
+    },
+    {
+      "id": 26,
+      "type": "plan",
+      "label": "BI-PI, 2021",
+      "name": "Počítačové inženýrství, 2021"
+    },
+    {
+      "id": 27,
+      "type": "plan",
+      "label": "BI-WI, 2021",
+      "name": "Webové inženýrství, 2021"
+    },
+    {
+      "id": 28,
+      "type": "plan",
+      "label": "BI-UI, 2021",
+      "name": "Umělá inteligence, 2021"
+    },
+    {
+      "id": 29,
+      "type": "plan",
+      "label": "BI-TI, 2021",
+      "name": "Teoretická informatika, 2021"
+    },
+    {
+      "id": 30,
+      "type": "plan",
+      "label": "BI-SI, 2021",
+      "name": "Softwarové inženýrství, 2021 "
+    },
+    {
+      "id": 31,
+      "type": "plan",
+      "label": "BI-PS, 2021",
+      "name": "Počítačové systémy a virtualizace, 2021 "
+    },
+    {
+      "id": 32,
+      "type": "topic",
+      "label": "UML",
+      "name": "Unified Modeling Language"
+    },
+    {
+      "id": 33,
+      "type": "topic",
+      "label": "OntoUML",
+      "name": "Onto Unified Modeling Language"
+    },
+    {
+      "id": 34,
+      "type": "teacher",
+      "label": "perglr",
+      "name": "doc. Ing. Robert Pergl Ph.D"
+    },
+    {
+      "id": 35,
+      "type": "institute",
+      "label": "KIB",
+      "name": "Katedra informační bezpečnosti"
+    },
+    {
+      "id": 36,
+      "type": "institute",
+      "label": "KCN",
+      "name": "Katedra číslicového návrhu"
+    },
+    {
+      "id": 37,
+      "type": "institute",
+      "label": "KTI",
+      "name": "Katedra teoretické informatiky"
+    },
+    {
+      "id": 38,
+      "type": "institute",
+      "label": "KPS",
+      "name": "Katedra počítačových systémů"
+    },
+    {
+      "id": 39,
+      "type": "teacher",
+      "label": "pauspetr",
+      "name": "Ing. Petr Pauš Ph.D."
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 2,
+      "value": "en",
+      "oriented": true
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "value": "cs",
+      "oriented": true
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": "garant"
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": "tutorial"
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "value": "institute"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "value": "PS"
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "value": "PS"
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "value": "PO"
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "value": "topic"
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "value": "topic"
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "value": "topic"
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "value": "topic"
+    },
+    {
+      "source": 0,
+      "target": 13,
+      "value": "topic"
+    },
+    {
+      "source": 3,
+      "target": 14,
+      "value": "lecturer"
+    },
+    {
+      "source": 3,
+      "target": 15,
+      "value": "lecturer"
+    },
+    {
+      "source": 3,
+      "target": 16,
+      "value": "lecturer"
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "value": "garant"
+    },
+    {
+      "source": 3,
+      "target": 17,
+      "value": "lecturer"
+    },
+    {
+      "source": 3,
+      "target": 18,
+      "value": "lecturer"
+    },
+    {
+      "source": 319,
+      "target": 1,
+      "value": "institute"
+    },
+    {
+      "source": 320,
+      "target": 1,
+      "value": "institute"
+    },
+    {
+      "source": 102,
+      "target": 1,
+      "value": "institute"
+    },
+    {
+      "source": 317,
+      "target": 1,
+      "value": "institute"
+    },
+    {
+      "source": 19,
+      "target": 320,
+      "value": "tutorial"
+    },
+    {
+      "source": 19,
+      "target": 319,
+      "value": "tutorial"
+    },
+    {
+      "source": 19,
+      "target": 317,
+      "value": "garant"
+    },
+    {
+      "source": 20,
+      "target": 319,
+      "value": "garant"
+    },
+    {
+      "source": 20,
+      "target": 320,
+      "value": "garant"
+    },
+    {
+      "source": 21,
+      "target": 320,
+      "value": "topic"
+    },
+    {
+      "source": 21,
+      "target": 317,
+      "value": "topic"
+    },
+    {
+      "source": 21,
+      "target": 319,
+      "value": "to6pic"
+    },
+    {
+      "source": 22,
+      "target": 320,
+      "value": "topic"
+    },
+    {
+      "source": 22,
+      "target": 317,
+      "value": "topic"
+    },
+    {
+      "source": 22,
+      "target": 319,
+      "value": "topic"
+    },
+    {
+      "source": 22,
+      "target": 319,
+      "value": "PP"
+    },
+    {
+      "source": 23,
+      "target": 319,
+      "value": "PP"
+    },
+    {
+      "source": 24,
+      "target": 319,
+      "value": "PP"
+    },
+    {
+      "source": 25,
+      "target": 319,
+      "value": "PP"
+    },
+    {
+      "source": 26,
+      "target": 319,
+      "value": "PP8"
+    },
+    {
+      "source": 27,
+      "target": 319,
+      "value": "PP"
+    },
+    {
+      "source": 28,
+      "target": 319,
+      "value": "PP"
+    },
+    {
+      "source": 29,
+      "target": 319,
+      "value": "PP"
+    },
+    {
+      "source": 30,
+      "target": 319,
+      "value": "PP"
+    },
+    {
+      "source": 31,
+      "target": 319,
+      "value": "PP"
+    },
+    {
+      "source": 25,
+      "target": 320,
+      "value": "PS"
+    },
+    {
+      "source": 26,
+      "target": 320,
+      "value": "PS"
+    },
+    {
+      "source": 28,
+      "target": 320,
+      "value": "PS"
+    },
+    {
+      "source": 29,
+      "target": 320,
+      "value": "PS"
+    },
+    {
+      "source": 19,
+      "target": 1,
+      "value": "employee"
+    },
+    {
+      "source": 20,
+      "target": 1,
+      "value": "employee"
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "value": "employee"
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "value": "garant"
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "value": "garant"
+    },
+    {
+      "source": 3,
+      "target": 30,
+      "value": "garant"
+    },
+    {
+      "source": 20,
+      "target": 28,
+      "value": "garant"
+    },
+    {
+      "source": 32,
+      "target": 18,
+      "value": "topic"
+    },
+    {
+      "source": 33,
+      "target": 18,
+      "value": "topic"
+    },
+    {
+      "source": 34,
+      "target": 18,
+      "value": "garant"
+    },
+    {
+      "source": 5,
+      "target": 18,
+      "value": "institute"
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "value": "institute"
+    },
+    {
+      "source": 5,
+      "target": 15,
+      "value": "institute"
+    },
+    {
+      "source": 5,
+      "target": 16,
+      "value": "institute"
+    },
+    {
+      "source": 5,
+      "target": 17,
+      "value": "institute"
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "value": "institute"
+    },
+    {
+      "source": 34,
+      "target": 5,
+      "value": "employee"
+    },
+    {
+      "source": 5,
+      "target": 24,
+      "value": "plan"
+    },
+    {
+      "source": 5,
+      "target": 25,
+      "value": "plan"
+    },
+    {
+      "source": 5,
+      "target": 27,
+      "value": "plan"
+    },
+    {
+      "source": 5,
+      "target": 30,
+      "value": "plan"
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "value": "plan"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "value": "plan"
+    },
+    {
+      "source": 1,
+      "target": 28,
+      "value": "plan"
+    },
+    {
+      "source": 29,
+      "target": 37,
+      "value": "plan"
+    },
+    {
+      "source": 38,
+      "target": 31,
+      "value": "plan"
+    },
+    {
+      "source": 23,
+      "target": 35,
+      "value": "plan"
+    },
+    {
+      "source": 36,
+      "target": 26,
+      "value": "plan"
+    },
+    {
+      "source": 39,
+      "target": 317,
+      "value": "tutorial"
+    }
+  ]
+}

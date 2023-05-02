@@ -1,0 +1,8 @@
+@use "@assets/stylesheets/base" as *;
+
+.network-cluster-title {
+    font-weight: bolder;
+    pointer-events: none;
+    font-family: $default-font;
+    text-shadow: 0.5px 1px 1.5px rgba(0, 0, 0, 1);
+}

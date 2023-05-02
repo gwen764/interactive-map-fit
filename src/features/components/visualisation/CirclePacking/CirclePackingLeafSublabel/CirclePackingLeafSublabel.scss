@@ -1,0 +1,10 @@
+@use "@assets/stylesheets/base" as *;
+
+.circle-packing-leaf-sublabel {
+    alignment-baseline: middle;
+    text-anchor: middle;
+    font-size: 14px;
+    pointer-events: none;
+    fill: $black-color-medium;
+    font-family: $default-font;
+}

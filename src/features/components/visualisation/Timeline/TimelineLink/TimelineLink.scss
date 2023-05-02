@@ -1,0 +1,10 @@
+@use "@assets/stylesheets/base" as *;
+
+.timeline-link-path {
+    fill: none;
+}
+
+.timeline-link-background {
+    fill: none;
+    stroke: $white-color;
+}

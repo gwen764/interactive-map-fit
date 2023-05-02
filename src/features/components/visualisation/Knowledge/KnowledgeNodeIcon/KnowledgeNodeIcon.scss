@@ -1,0 +1,9 @@
+@use "@assets/stylesheets/base" as *;
+
+.knowledge-node-icon {
+    fill: $white-color;
+    font-family: 'FontAwesome';
+    text-anchor: middle;
+    dominant-baseline: central;
+    pointer-events: none;
+}

@@ -1,0 +1,8 @@
+@use "@assets/stylesheets/base" as *;
+
+.y-axis-text {
+    fill: $gray-color-dark;
+    text-anchor: end;
+    alignment-baseline: middle;
+    font-family: $default-font;
+}

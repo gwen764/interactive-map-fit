@@ -1,0 +1,13 @@
+@use "@assets/stylesheets/base" as *;
+
+.network-cluster-link-label {
+    fill: $gray-color-dark;
+    paint-order: stroke;
+    stroke: $white-color;
+    stroke-width: 3;
+    text-anchor: middle;
+    pointer-events: none;
+    alignment-baseline: middle;
+    opacity: 0;
+    font-family: $default-font;
+}

@@ -1,0 +1,15 @@
+@use "@assets/stylesheets/base" as *;
+
+.knowledge-link-label {
+    fill: $gray-color-dark;
+    font-size: 16px;
+    paint-order: stroke;
+    stroke: $white-color;
+    stroke-width: 3;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    text-anchor: middle;
+    pointer-events: none;
+    alignment-baseline: middle;
+    font-family: $default-font;
+}

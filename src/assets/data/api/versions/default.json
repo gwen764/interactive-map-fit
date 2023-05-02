@@ -1,0 +1,233 @@
+{
+    "data":[
+       {
+          "id": 300,
+          "semester":"b101",
+          "group":"2009",
+          "name":"Lineární algebra",
+          "label":"BI-LIN",
+          "parents":[
+          ]
+       },
+       {
+        "id": 301,
+        "semester":"b102",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            300
+        ]
+     },
+     {
+        "id": 302,
+        "semester":"b111",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            301
+        ]
+     },
+     {
+        "id": 303,
+        "semester":"b112",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            302
+        ]
+     },
+     {
+        "id": 304,
+        "semester":"b122",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            303
+        ]
+     },
+     {
+        "id": 305,
+        "semester":"b131",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            304
+        ]
+     },
+     {
+        "id": 306,
+        "semester":"b132",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            305
+        ]
+     },
+     {
+        "id": 307,
+        "semester":"b141",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            306
+        ]
+     },
+     {
+        "id": 308,
+        "semester":"b142",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            307
+        ]
+     },
+     {
+        "id": 309,
+        "semester":"b152",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            308
+        ]
+     },
+     {
+        "id": 310,
+        "semester":"b161",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            309
+        ]
+     },
+     {
+        "id": 311,
+        "semester":"b162",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            310
+        ]
+     },
+     {
+        "id": 312,
+        "semester":"b171",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            311
+        ]
+     },
+     {
+        "id": 313,
+        "semester":"b172",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            312
+        ]
+     },
+     {
+        "id": 314,
+        "semester":"b182",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            313
+        ]
+     },
+     {
+        "id": 315,
+        "semester":"b192",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            314
+        ]
+     },
+     {
+        "id":316,
+        "semester":"b202",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            315
+        ]
+     },
+     {
+        "id": 317,
+        "semester":"b212",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            316
+        ]
+     },
+     {
+        "id": 318,
+        "semester":"b222",
+        "group":"2009",
+        "name":"Lineární algebra",
+        "label":"BI-LIN",
+        "parents":[
+            317
+        ]
+     },
+     {
+        "id":319,
+        "semester":"b211",
+        "group":"2020",
+        "name":"Lineární algebra 1",
+        "label":"BI-LA1",
+        "parents":[
+            316
+        ]
+     },
+     {
+        "id":320,
+        "semester":"b212",
+        "group":"2020",
+        "name":"Lineární algebra 2",
+        "label":"BI-LA2",
+        "parents":[
+            316
+        ]
+     },
+     {
+        "id":321,
+        "semester":"b222",
+        "group":"2020",
+        "name":"Lineární algebra 1",
+        "label":"BI-LA1",
+        "parents":[
+            319
+        ]
+     },
+     {
+        "id":322,
+        "semester":"b231",
+        "group":"2020",
+        "name":"Lineární algebra 2",
+        "label":"BI-LA2",
+        "parents":[
+            320
+        ]
+     }
+    ]
+}

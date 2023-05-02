@@ -1,0 +1,13 @@
+@use "@assets/stylesheets/base" as *;
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $gray-color-light;
+}
+
+code {
+  font-family: source-code-pro, monospace;
+}

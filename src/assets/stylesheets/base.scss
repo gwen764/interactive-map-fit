@@ -1,0 +1,41 @@
+// Colors
+$black-color-dark: #050038;
+$black-color-medium: #36363a;
+$black-color-light: #48484b;
+
+$gray-color-dark: #55585c;
+$gray-color-medium: #c7c7c7;
+$gray-color-light: #e7ebf0;
+
+$white-color:white;
+
+// Entity colors
+$course-color:#5491f5;
+$topic-color:#2ca02c;
+$teacher-color:#f1a312;
+$plan-color:#f06292;
+$institute-color:#12b5cb;
+
+// Font
+$default-font: Roboto, sans-serif;
+
+// Exports
+:export {
+    courseColor:$course-color;
+    topicColor:$topic-color;
+    teacherColor:$teacher-color;
+    planColor:$plan-color;
+    instituteColor:$institute-color;
+
+    courseDarkenColor:darken($course-color, 8%);
+    topicDarkenColor:darken($topic-color, 8%);
+    teacherDarkenColor:darken($teacher-color, 8%);
+    planDarkenColor:darken($plan-color, 8%);
+    instituteDarkenColor:darken($institute-color, 8%);
+
+    courseLightenColor:lighten($course-color, 25%);
+    topicLightenColor:lighten($topic-color, 40%);
+    teacherLightenColor:lighten($teacher-color, 40%);
+    planLightenColor:lighten($plan-color, 25%);
+    instituteLightenColor:lighten($institute-color, 40%);
+}

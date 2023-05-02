@@ -1,0 +1,100 @@
+{
+  "name": "fit-map",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/material-icons": "^4.5.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.8",
+    "@storybook/addon-docs": "^7.0.7",
+    "@storybook/preset-scss": "^1.0.3",
+    "@syncfusion/ej2": "^20.4.50",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.12",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "axios": "^1.3.2",
+    "d3": "^7.8.2",
+    "hull.js": "^1.0.3",
+    "lodash": "^4.17.21",
+    "material-ui-popup-state": "^5.0.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "react-uuid": "^2.0.0",
+    "recoil": "^0.7.6",
+    "tinygradient": "^1.1.5",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@storybook/addon-essentials": "^7.0.7",
+    "@storybook/addon-interactions": "^7.0.7",
+    "@storybook/addon-links": "^7.0.7",
+    "@storybook/blocks": "^7.0.7",
+    "@storybook/manager-api": "^7.0.7",
+    "@storybook/preset-create-react-app": "^7.0.7",
+    "@storybook/react": "^7.0.7",
+    "@storybook/react-webpack5": "^7.0.7",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/theming": "^7.0.7",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "jsdoc": "^4.0.2",
+    "msw": "^1.1.0",
+    "react-app-rewire-alias": "^1.1.7",
+    "react-app-rewired": "^2.2.1",
+    "sass": "^1.58.0",
+    "storybook": "^7.0.7",
+    "webpack": "^5.81.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}

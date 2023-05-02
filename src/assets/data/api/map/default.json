@@ -1,0 +1,139 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "topic",
+      "label": "UQ-KXQ",
+      "name": "et aute"
+    },
+    {
+      "id": 1,
+      "type": "teacher",
+      "label": "Noone",
+      "name": "Noone"
+    },
+    {
+      "id": 2,
+      "type": "plan",
+      "label": "WL-KWU",
+      "name": ""
+    },
+    {
+      "id": 3,
+      "type": "teacher",
+      "label": "YF-GLC",
+      "name": "esse"
+    },
+    {
+      "id": 4,
+      "type": "plan",
+      "label": "LA-LLB",
+      "name": "aliquip ad"
+    },
+    {
+      "id": 5,
+      "type": "plan",
+      "label": "QM-UDZ",
+      "name": "Lorem"
+    },
+    {
+      "id": 6,
+      "type": "teacher",
+      "label": "NA-HLG",
+      "name": "qui dolor"
+    },
+    {
+      "id": 7,
+      "type": "topic",
+      "label": "AM-QEP",
+      "name": "Ut Excepteu"
+    },
+    {
+      "id": 8,
+      "type": "course",
+      "label": "QU-FEH",
+      "name": "eu nulla id co"
+    },
+    {
+      "id": 9,
+      "type": "topic",
+      "label": "IV-DMF",
+      "name": "u"
+    },
+    {
+      "id": 10,
+      "type": "topic",
+      "label": "NB-GZH",
+      "name": "irure"
+    },
+    {
+      "id": 11,
+      "type": "teacher",
+      "label": "NB-GZH",
+      "name": "irure"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": "lecturer"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "value": "lecturer"
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": "PS"
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": "PP"
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "value": "lecturer"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "value": "topic"
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "value": "PS"
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "value": "institute"
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "value": "lecturer"
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "value": "plan"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "value": "lecturer"
+    },
+    {
+      "source": 11,
+      "target": 5,
+      "value": "lecturer",
+      "oriented": true
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+    "name":"Studium",
+    "children":[
+       {
+          "name":"Bakalářské",
+          "label":"b",
+          "group": "bachelor",
+          "children":[
+             {
+                "name":"Informatika",
+                "label":"bi",
+                "group":"cs",
+                "children":[
+                   {
+                      "name":"Informační bezpečnost 2021",
+                      "label":"bi-ib21",
+                      "group":"kib",
+                      "children":[
+                         {
+                            "name":"Bc. specializace Informační bezpečnost, 2021",
+                            "label":"bi-ib, 2021",
+                            "group":"present"
+                  
+                            
+                         },
+                         {
+                            "name":"Bc. specializace Informační bezpečnost, kombi., 2021",
+                            "label":"bik-ib, 2021",
+                            "group":"part-time"
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Webové inženýrství 2021",
+                      "label":"bi-wi21",
+                      "group":"ksi",
+                      "children":[
+                         {
+                            "name":"Bc. specializace Webové inženýrství, 2021",
+                            "label":"bi-wi21, 2021",
+                            "group":"present"
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Manažerská informatika 2021",
+                      "label":"bi-mi21",
+                      "group":"ksi",
+                      "children":[
+                         {
+                            "name":"Bc. specializace Manažerská informatika, 2021",
+                            "label":"bi-mi, 2021",
+                            "group":"present"
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Počítačová grafika 2021",
+                      "label":"bi-pg21",
+                      "group":"ksi",
+                      "children":[
+                         {
+                            "name":"Bc. specializace Počítačová grafika, 2021",
+                            "label":"bi-pg, 2021",
+                            "group":"present"
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Počítačové inženýrství 2021",
+                      "label":"bi-pi21",
+                      "group":"kps",
+                      "children":[
+                         {
+                            "name":"Bc. specializace Počítačové inženýrství, 2021",
+                            "label":"bi-pi, 2021",
+                            "group":"present"
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Počítačové sítě a Internet 2021",
+                      "label":"bi-ps21",
+                      "group":"kps",
+                      "children":[
+                         {
+                            "name":"Bc. specializace Počítačové sítě a Internet, 2021",
+                            "label":"bi-ps, 2021",
+                            "group":"present"
+                         },
+                         {
+                            "name":"Bc. specializace Počítačové sítě a Internet, kombi., 2021",
+                            "label":"bik-ps, 2021",
+                            "group":"part-time"
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Softwarové inženýrství 2021",
+                      "label":"bi-si21",
+                      "group":"ksi",
+                      "children":[
+                         {
+                            "name":"Bc. specializace Softwarové inženýrství, 2021",
+                            "label":"bi-si, 2021",
+                            "group":"present"
+                         },
+                         {
+                            "name":"Bc. specializace Softwarové inženýrství, kombi., 2021",
+                            "label":"bik-si, 2021",
+                            "group":"part-time"
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Teoretická informatika 2021",
+                      "label":"bi-ti21",
+                      "group":"kti",
+                      "children":[
+                         {
+                            "name":"Bc. specializace Teoretická informatika, 2021",
+                            "label":"bi-ti, 2021",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Umělá inteligence 2021",
+                      "label":"bi-ui21",
+                      "group":"kam",
+                      "children":[
+                         {
+                            "name":"Bc. specializace Umělá inteligence, 2021",
+                            "label":"bi-ui, 2021",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                     "name":"Bez specializace",
+                     "children" : [
+                        {
+                           "name":"Bc. program, pro fázi studia bez specializace, kombi., 2021",
+                           "label":"Bez specializace, kombi., 2021",
+                           "group":"part-time"
+                        },
+                        {
+                           "name":"Bc. program, pro fázi studia bez specializace, 2021",
+                           "label":"Bez specializace, 2021",
+                           "group":"present"
+                        }
+                     ]
+                   }
+                ]
+             },
+             {
+                "name":"Informatics",
+                "label":"bi",
+                "group":"en",
+                "children":[
+                  {
+                     "name": "Computer Engineering 2021",
+                     "label": "bie-pi21",
+                     "group": "kps",
+                     "children":[
+                        {
+                           "name":"Bachelor specialization, Computer Engineering, 2021",
+                           "label":"bie-pi, 2021",
+                           "group":"present" 
+                        }
+                     ]
+                  },
+                  {
+                     "name": "Computer Networks and Internet 2021",
+                     "label": "bie-ps21",
+                     "group": "kps",
+                     "children":[
+                        {
+                           "name":"Bachelor specialization, Computer Networks and Internet",
+                           "label":"bie-ps, 2021",
+                           "group":"present" 
+                        }
+                     ]
+                  },
+                  {
+                     "name": "Computer Science 2021",
+                     "label": "bie-ti21",
+                     "group": "kti",
+                     "children":[
+                        {
+                           "name":"Bachelor specialization, Computer Science, 2021",
+                           "label":"bie-ti, 2021",
+                           "group":"present" 
+                        }
+                     ]
+                  },
+                  {
+                     "name": "Computer Systems and Virtualization 2021",
+                     "label": "bie-pv21",
+                     "group": "kps",
+                     "children":[
+                        {
+                           "name":"Bachelor specialization Computer Systems and Virtualization, 2021",
+                           "label":"bie-pv, 2021",
+                           "group":"present" 
+                        }
+                     ]
+                  },
+                  {
+                     "name": "Information Security 2021",
+                     "label": "bie-ib21",
+                     "group": "kib",
+                     "children":[
+                        {
+                           "name":"Bachelor specialization, Information Security, 2021",
+                           "label":"bie-ib, 2021",
+                           "group":"present" 
+                        }
+                        
+                     ]
+                  },
+                  {
+                     "name": "Software Engineering 2021",
+                     "label": "bie-si21",
+                     "group": "ksi",
+                     "children":[
+                        {
+                           "name":"Bachelor specialization, Software Engineering, 2021",
+                           "label":"bie-si, 2021",
+                           "group":"present" 
+                        }
+                        
+                     ]
+                  }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Magisterské",
+          "label":"n",
+          "group": "master",
+          "children":[
+             {
+                "name":"Informatika",
+                "label":"ni",
+                "group":"cs",
+                "children":[
+                   {
+                      "name": "Digital Business Engineering",
+                      "label": "ni-bde",
+                      "group": "ksi",
+                      "children":[
+                      ]
+                   },
+                   {
+                      "name":"Manažerská informatika",
+                      "label":"ni-mi",
+                      "group": "ksi",
+                      "children":[
+                         {
+                            "name":"Mgr. specializace Manažerská informatika, 2020",
+                            "label": "ni-mi, 2020",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Návrh a programování vestavných systémů",
+                      "label":"ni-npvs",
+                      "group":"kcn",
+                      "children":[
+                         {
+                            "name":"Mgr. specializace Návrh a programování vestavných systémů, 2020",
+                            "label":"nik-npvs, 2020",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Počítačová bezpečnost",
+                      "label":"ni-pb",
+                      "group":"kib",
+                      "children":[
+                         {
+                            "name":"Mgr. specializace Počítačová bezpečnost, 2020",
+                            "label":"ni-pb, 2020",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Počítačové systémy a sítě",
+                      "label":"ni-pss",
+                      "group":"kps",
+                      "children":[
+                         {
+                            "name":"Mgr. specializace Počítačové systémy a sítě, 2020",
+                            "label":"ni-pss, 2020",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Softwarové inženýrství",
+                      "label":"ni-si",
+                      "group":"ksi",
+                      "children":[
+                         {
+                            "name":"Mgr. specializace Softwarové inženýrství, 2020",
+                            "label":"ni-si, 2020",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Systémové programování",
+                      "label":"ni-sp",
+                      "group":"kti",
+                      "children":[
+                         {
+                            "name":"Mgr. specializace Systémové programování, verze od 2020",
+                            "label":"ni-sp, 2020",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Teoretická informatika",
+                      "label":"ni-ti",
+                      "group":"kti",
+                      "children":[
+                         {
+                            "name":"Mgr. specializace Teoretická informatika, 2018-2019",
+                            "label":"ni-ti, 2018-2019",
+                            "group":"present" 
+                         },
+                         {
+                            "name":"Mgr. specializace Teoretická informatika, 2020",
+                            "label":"ni-ti, 2020",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Webové inženýrství",
+                      "label":"ni-wi",
+                      "group": "ksi",
+                      "children":[
+                         {
+                            "name":"Mgr. specializace Webové inženýrství, 2020",
+                            "label":"ni-wi, 2020",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                      "name":"Znalostní inženýrství",
+                      "label":"ni-zi",
+                      "group": "kam",
+                      "children":[
+                         {
+                            "name":"Mgr. specializace Znalostní inženýrství, 2020",
+                            "label":"ni-zi, 2020",
+                            "group":"present" 
+                         }
+                      ]
+                   },
+                   {
+                     "name":"Bez specializace",
+                     "children":[
+                        {
+                           "name":"Mgr. program, pro fázi studia bez specializace, ver. pro roky 2020 a vyšší",
+                           "label":"Bez specializace, 2020",
+                           "group":"present" 
+                        }
+                     ]
+                   }
+                ]
+             },
+             {
+                "name":"Informatics",
+                "label":"ni",
+                "group":"en",
+                "children":[
+                  {
+                     "name":"Computer Science 2021",
+                     "label":"nie-ti",
+                     "group":"kti",
+                     "children": [
+                        {
+                           "name":"Master specialization Computer Science, in English, 2021 ",
+                           "label":"nie-ti, 2021",
+                           "group":"present" 
+                        }
+                     ]
+                  },
+                  {
+                     "name":"Design and Programming of Embedded Systems 2021",
+                     "label":"nie-npvs",
+                     "group":"kcn",
+                     "children": [
+                        {
+                           "name":"Master specialization Design and Programming of Embedded Systems, in English, 2021",
+                           "label":"nie-npvs, 2021",
+                           "group":"present" 
+                        }
+                     ]
+                  },
+                  {
+                     "name":"Computer Systems and Networks 2021",
+                     "label":"nie-pss",
+                     "group":"kps",
+                     "children": [
+                        {
+                           "name":"Master specialization Computer Systems and Networks, in English, 2021",
+                           "label":"nie-pss, 2021",
+                           "group":"present" 
+                        }
+                     ]
+                  },
+                  {
+                     "name":"Software Engineering 2021",
+                     "label":"nie-si",
+                     "group":"ksi",
+                     "children": [
+                        {
+                           "name":"Master specialization Software Engineering, in English, 2021",
+                           "label":"nie-si, 2021",
+                           "group":"present" 
+                        }
+                     ]
+                  },
+                  {
+                     "name":"Computer Security 2021",
+                     "label":"nie-pb",
+                     "group":"kib",
+                     "children": [
+                        {
+                           "name":"Master specialization Computer Security, in English, 2021",
+                           "label":"nie-pb, 2021",
+                           "group":"present" 
+                        }
+                     ]
+                  }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Doktorské",
+          "label": "p",
+          "group": "doctoral",
+          "children":[
+             {
+                "name":"Informatika",
+                "label":"pi",
+                "group":"cs",
+                "children":[
+                  {
+                     "name" : "Bez specializace",
+                     "children" : [
+                        {
+                           "name":"Informatika",
+                           "label":"Informatika",
+                           "group":"present"
+                        }
+                     ]
+                  }
+                ]
+             }
+          ]
+       }
+    ]
+ }

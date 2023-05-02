@@ -1,0 +1,13 @@
+@use "@assets/stylesheets/base" as *;
+
+.knowledge-node-label {
+    fill: $gray-color-dark;
+    font-size: 18px;
+    text-anchor: middle;
+    paint-order: stroke;
+    stroke: $white-color;
+    stroke-width: 3;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    font-family: $default-font;
+}

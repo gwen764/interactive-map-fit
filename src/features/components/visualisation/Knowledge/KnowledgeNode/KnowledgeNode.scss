@@ -1,0 +1,34 @@
+@use "@assets/stylesheets/base" as *;
+
+.knowledge-node {
+    stroke-width: 6;
+    stroke: $white-color;
+    cursor: pointer;
+}
+
+.knowledge-selected {
+    border-radius: 50%;
+    outline: 7px $gray-color-dark;
+    outline-style: solid;
+    outline-offset: 0px;
+}
+
+#knowledge-node-course {
+    fill: $course-color;
+}
+
+#knowledge-node-topic {
+    fill: $topic-color;
+}
+
+#knowledge-node-teacher {
+    fill: $teacher-color;
+}
+
+#knowledge-node-plan {
+    fill: $plan-color;
+}
+
+#knowledge-node-institute {
+    fill: $institute-color;
+}

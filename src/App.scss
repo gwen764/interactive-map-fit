@@ -1,0 +1,32 @@
+@use "@assets/stylesheets/base" as *;
+
+h1, h2 {
+    color: $black-color-dark;
+    font-weight: bolder;
+}
+
+h3, h4, h5, h6 {
+    color: $black-color-medium;
+    font-weight:lighter;
+}
+
+svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+svg:active {
+    cursor: grabbing;
+}
+
+svg text {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+svg text::selection {
+    background: none;
+}

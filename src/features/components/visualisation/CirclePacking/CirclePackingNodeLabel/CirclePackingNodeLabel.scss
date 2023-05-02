@@ -1,0 +1,15 @@
+@use "@assets/stylesheets/base" as *;
+
+.circle-packing-node-label {
+    alignment-baseline: middle;
+    text-anchor: middle;
+    font-size: 36px;
+    fill: $gray-color-dark;
+    paint-order: stroke;
+    stroke: $white-color;
+    stroke-width: 10;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    font-family: $default-font;
+    pointer-events: none;
+}

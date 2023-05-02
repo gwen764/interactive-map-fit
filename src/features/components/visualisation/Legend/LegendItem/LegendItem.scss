@@ -1,0 +1,16 @@
+@use "@assets/stylesheets/base" as *;
+
+.legend-circle {
+    stroke: $white-color;
+    stroke-width: 3;
+    cursor: pointer;   
+}
+
+.legend-text {
+    paint-order: stroke;
+    stroke-width: 3;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    cursor: pointer;
+    font-family: $default-font;   
+}

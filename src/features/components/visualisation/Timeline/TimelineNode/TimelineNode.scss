@@ -1,0 +1,14 @@
+@use "@assets/stylesheets/base" as *;
+
+.timeline-node {
+    stroke-width: 4;
+    stroke: $white-color;
+    cursor: pointer;
+}
+
+.timeline-selected {
+    border-radius: 50%;
+    outline: 4px $gray-color-dark;
+    outline-style: solid;
+    outline-offset: -1px;
+}

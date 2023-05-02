@@ -1,0 +1,6 @@
+@use "@assets/stylesheets/base" as *;
+
+.network-cluster-node {
+    stroke: $white-color;
+    stroke-width: 2px;
+}

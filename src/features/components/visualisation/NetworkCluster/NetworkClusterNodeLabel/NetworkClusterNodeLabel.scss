@@ -1,0 +1,16 @@
+@use "@assets/stylesheets/base" as *;
+
+.network-cluster-label-text {
+    text-align: center;
+    fill: whitesmoke;
+    opacity: 0;
+    pointer-events: none;
+    alignment-baseline: hanging;
+    font-family: $default-font;
+}
+
+.network-cluster-label-rect {
+    fill: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}

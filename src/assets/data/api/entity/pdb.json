@@ -1,0 +1,29 @@
+{
+  "id": 0,
+  "name":"Pokročilé databázové systémy",
+  "label":"NI-PDB",
+  "type":"course",
+  "active":true,
+  "semester":"b212",
+  "links":[
+     {
+        "name":"courses",
+        "ref":"https://courses.fit.cvut.cz/NI-PDB/@B211/"
+     },
+     {
+        "name":"fittable",
+        "ref":"https://timetable.fit.cvut.cz/new/courses/MI-PDB.16"
+     },
+     {
+        "name":"whitebook",
+        "ref":"https://bilakniha.cvut.cz/cs/predmet4652306.html"
+     },
+     {
+        "name":"survey",
+        "ref":"https://anketa.is.cvut.cz/html/anketa/results/semesters/B211/surveys/1/courses/NI-PDB"
+     }
+  ],
+  "relations":[
+
+  ]
+}

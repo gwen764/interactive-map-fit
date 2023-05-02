@@ -1,0 +1,25 @@
+{
+    "id":19,
+    "name":"Ing. Daniel Dombek Ph.D.",
+    "label":"dombedan",
+    "type":"teacher",
+    "active":true,
+    "semester":"b212",
+    "links":[
+       {
+          "name":"fittable",
+          "ref":"https://timetable.fit.cvut.cz/new/people/dombedan?date=2023-04-25"
+       },
+       {
+          "name":"usermap",
+          "ref":"https://usermap.cvut.cz/profile/e7445ae9-a35f-4404-8f3f-d611b6ab0043"
+       },
+       {
+         "name":"survey",
+         "ref":"https://anketa.is.cvut.cz/html/anketa/results/semesters/B212/surveys/1/teachers/32669000"
+      }
+    ],
+    "relations":[
+       
+    ]
+ }

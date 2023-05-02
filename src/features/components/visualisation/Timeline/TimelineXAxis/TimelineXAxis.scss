@@ -1,0 +1,16 @@
+@use "@assets/stylesheets/base" as *;
+
+.x-axis-circle {
+    fill: $gray-color-medium;
+}
+
+.x-axis-line {
+    stroke: $gray-color-medium;
+    stroke-dasharray: 3px;
+    stroke-width: 0.5px;
+}
+.x-axis-text {
+    fill: $gray-color-dark;
+    text-anchor: middle;
+    font-family: $default-font;
+}
